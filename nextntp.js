@@ -3562,15 +3562,15 @@ if (wcentp) {
 		if (ntp_wdg == undefined) {
 				console.log("Create default cached widgets... ");
 				ntp_wdg = [{
-								name: "Search Bar",
+								name: "搜索栏",
 								cached: f_dwdg(0)
 						},
 						{
-								name: "Tiles Grid",
+								name: "书签网格",
 								cached: f_dwdg(1)
 						},
 						{
-								name: "News Section",
+								name: "新闻栏",
 								cached: f_dwdg(2)
 						},
 				];
@@ -3597,7 +3597,7 @@ if (wcentp) {
 						if (status) {
 								wdgn.style.display = "block";
 								c = "checked";
-								if (ntp_wdg[z].name == "Search Bar")
+								if (ntp_wdg[z].name == "搜索栏")
 										wdgn.style.zIndex = "1";
 								customInner(wdgn, ntp_wdg[z].cached);
 						} else {
